@@ -21,7 +21,7 @@ class QueryGeneratorTest extends TestCase
 
         $this->assertInstanceOf(QueryObject::class, $queryObject);
         $this->assertEquals($expectedQuery, $queryObject->getQuery());
-        $this->assertEquals($queryObject->getBindings(), $expectedBindings);
+        $this->assertEquals($expectedBindings, $queryObject->getBindings());
     }
 
     protected function getTestResources()
