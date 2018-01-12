@@ -1,6 +1,6 @@
 {
     "name": "kfirba/import-query-generator",
-    "description": "A class that generates efficient mass resource imports distinguishing between new records andnd records to update.",
+    "description": "An efficient query generator for mass resource imports, distinguishing between new records and records to update.",
     "type": "library",
     "license": "MIT",
     "authors": [
