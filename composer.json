@@ -1,0 +1,21 @@
+{
+    "name": "kfirba/import-query-generator",
+    "description": "A class that generates efficient mass resource imports distinguishing between new records andnd records to update.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kfir Bens-Ami",
+            "email": "kfirba2@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kfirba\\": "src/"
+        }
+    }
+}
