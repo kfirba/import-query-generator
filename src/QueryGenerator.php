@@ -15,7 +15,7 @@ class QueryGenerator
      */
     public function generate($table, $rows, array $exclude = [])
     {
-        $columns = array_keys($rows[0]);
+        $columns = array_keys($rows[array_key_first($rows)]);
         $columnsString = implode('`,`', $columns);
         $values = $this->buildSQLValuesStringFrom($rows);
         $updates = $this->buildSQLUpdatesStringFrom($columns, $exclude);
